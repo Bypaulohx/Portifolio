@@ -16,7 +16,6 @@ Este é o meu portfólio desenvolvido para apresentar meus projetos, habilidades
 
 ## Funcionalidades
 
-* **Experiência 3D Interativa**: Integração de modelos 3D que reagem ao mouse/scroll.
 * **Animações de Scroll**: Efeitos visuais dinâmicos conforme o usuário navega.
 * **Design Responsivo**: Adaptado para dispositivos móveis e desktop.
 * **Seção de Projetos**: Vitrine com os principais trabalhos realizados.
