@@ -1,0 +1,122 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  position: relative;
+  opacity: 1;
+  height: auto;
+  width: var(--cWidth);
+  margin: auto;
+}
+.about-box {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.about-me {
+  padding: 40px 0px;
+  width: 560px;
+  max-width: calc(100% - 20px);
+}
+.about-title {
+  font-size: calc(4vw + 25px);
+  line-height: calc(4vw + 20px);
+  font-weight: 600;
+  margin-right: 10%;
+  margin-bottom: 0;
+}
+.about-do-h2 {
+  color: var(--accentColor);
+}
+.about-me p {
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 600px) {
+  .about-title {
+    margin-right: 14%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .about-me {
+    width: 560px;
+    max-width: calc(100% - 30px);
+    transform: translateY(0%);
+  }
+  .about-section {
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .about-section {
+    width: var(--cWidth);
+    justify-content: center;
+    max-width: 1920px;
+    height: var(--vh);
+    padding: 0;
+    opacity: 1;
+  }
+  .about-me {
+    padding: 0;
+    width: 560px;
+    max-width: 100%;
+  }
+  .about-me p {
+    font-size: 1.9vw;
+    line-height: 2.3vw;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .about-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  .about-box {
+    width: 500px;
+    max-width: calc(100% - 50px);
+  }
+  .about-box:first-child {
+    justify-content: left;
+  }
+  .about-title {
+    margin: 50px 0 0;
+    font-size: 55px;
+    line-height: 53px;
+  }
+  .about-me {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+  .about-me p {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .about-section {
+    align-items: start;
+    place-items: inherit;
+    justify-content: left;
+  }
+  .about-box {
+    max-width: calc(100% - 25px);
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 1950px) {
+  .about-title {
+    font-size: 7rem;
+    line-height: 6.8rem;
+  }
+  .about-me p {
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+  }
+}
